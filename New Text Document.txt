@@ -7,7 +7,7 @@ class MPNeuron:
     return(sum(x) >= self.b)
   
   def predict(self, X):
-    Y = []
+    Y=[]
     for x in X:
       result = self.model(x)
       Y.append(result)
