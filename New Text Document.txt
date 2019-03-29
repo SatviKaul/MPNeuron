@@ -14,7 +14,7 @@ class MPNeuron:
     return np.array(Y)
   
   def fit(self, X, Y):
-    accuracy = {}
+    accuracy ={}
     
     for b in range(X.shape[1] + 1):
       self.b = b
