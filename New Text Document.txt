@@ -4,7 +4,7 @@ class MPNeuron:
     self.b = None
     
   def model(self, x):
-    return(sum(x) >= self.b)
+    return(sum(x) >=self.b)
   
   def predict(self, X):
     Y=[]
