@@ -2,7 +2,6 @@ class MPNeuron:
 
   def __init__(self):
     self.b = None
-
   def model(self, x):
     return(sum(x)>=self.b)
 
